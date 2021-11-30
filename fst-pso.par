@@ -1,0 +1,17 @@
+#################################################
+#
+# Parameter file for FST-PSO program.
+#
+#################################################
+#
+VEL_MIN  = 3.80,4.10,4.70,5.70,6.00,6.00,6.30    # Lower bound for velocity model.
+VEL_MAX  = 4.20,4.50,5.10,6.10,6.40,6.40,6.70    # Upper bound for velocity model.
+DEP_MIN  = 0.00,2.00,4.00,6.00,9.00,12.0,16.0    # Lower bound for Depth layering.
+DEP_MAX  = 0.10,4.00,6.00,9.00,12.0,16.0,20.0    # Upper bound for Depth layering.
+VpVS_R   = 1.87                                  # Vp/Vs ratio.
+NUM_RUN  =  2                                    # Number of FST-PSO runs.
+NUM_MD   =  2                                    # Number of models. If Set to 0 then FST-PSO will do it automatically.
+NUM_IT   = 0                                     # Number of iteration. If Set to 0 then FST-PSO will do it automatically.
+MDTP     = -25.0                                 # Minimum depth to plot.
+MP_FLAG  = 0                                     # Multiprocessing mode, 0:Disable,1 Auto detect, N Number of Processors.
+MEASURE  = 1                                     # Quality measure 1 for RMS and 2 for location accuracy.
